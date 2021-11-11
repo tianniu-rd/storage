@@ -30,10 +30,6 @@ func NewMysqlBackend(mysqlDsn string) (*MysqlBackend, error) {
     if err != nil {
         return nil, err
     }
-    err = db.AutoMigrate(&Chart{})
-    if err != nil {
-        return nil, err
-    }
     return &MysqlBackend{
         db:       db,
     }, nil
