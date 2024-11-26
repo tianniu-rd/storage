@@ -16,8 +16,8 @@ require (
 	golang.org/x/net v0.0.0-20220531201128-c960675eff93
 	google.golang.org/api v0.82.0
 	gorm.io/driver/mysql v1.4.4
-	gorm.io/driver/sqlite v1.2.6
-	gorm.io/gorm v1.24.2
+	gorm.io/driver/sqlite v1.5.6
+	gorm.io/gorm v1.25.7-0.20240204074919-46816ad31dde
 )
 
 require (
@@ -49,7 +49,7 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	github.com/mattn/go-sqlite3 v1.14.9 // indirect
+	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mozillazg/go-httpheader v0.3.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
